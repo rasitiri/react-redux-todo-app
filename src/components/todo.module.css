@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.container > div {
+    background-color: #f012be;
+    padding: 55px 20px;
+}
+.container > div > h1 {
+    letter-spacing: 0.25em;
+    padding: 15px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.container > div > input {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 250px;
+    border-radius: 15px;
+    outline: none;
+}
+
+input::placeholder {
+    letter-spacing: 0.1em;
+    font-size: 12px;
+}
+
+.container > div > button {
+    display: block;
+    margin: 15px auto;
+    padding: 9px 24px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #39cccc;
+    color: white;
+    font-weight: 600;
+    font-size: 13px;
+}
+.container > div > button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: #39cccc;
+    border-color: #39cccc;
+}
+.container ul {
+    padding: 3px;
+    margin: 5px;
+    list-style: none;
+}
+.container li {
+    text-align: center;
+    font-size:20px;
+    color: wheat;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    margin: 25px 5px;
+    justify-content: space-between;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+.sign > span{
+    margin: 0 5px;
+    font-size: 23px;
+}
